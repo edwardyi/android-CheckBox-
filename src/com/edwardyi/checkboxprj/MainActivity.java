@@ -44,6 +44,11 @@ public class MainActivity extends ActionBarActivity {
 				cb2.setChecked(true);
 				cb3.setChecked(true);
 			}
+			if(buttonView.getId()==R.id.cb4 && !isChecked){
+				cb1.setChecked(false);
+				cb2.setChecked(false);
+				cb3.setChecked(false);
+			}
 			
 		}
     	
